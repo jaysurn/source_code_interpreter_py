@@ -251,7 +251,7 @@ def traversal ( node, tabs, file ):
 def parser ( path ):
 	tree = Tree ( None,None,None,None,None )
 	tkarr = []
-	file = path + "scanner_output.txt"
+	file = path + "\\scanner_output.txt"
 	with open ( file ) as fin:
 		for line in fin:
 			fin_lines = line.split ( "|" )
